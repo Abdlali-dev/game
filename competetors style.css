@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#thumbnail img {
+    width: 100%;
+    height: 180px;
+}
+
+#competetors {
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    background: #eee;
+    border: 1px solid lightgray;
+}
+
+#competetors #robo-competetor {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#competetors #robo-competetor img {
+    width: 25%;
+    height: 100%;
+    border: 1px solid gray;
+    border-radius: 50px;
+    margin-left: 0.2em;
+}
+
+#robo-progress-container {
+    width: 70%;
+    height: 100%;
+}
+
+#robo-progress-container #robot-record {
+    margin-top: 5%;
+}
+
+#robo-progress-container #progress-container {
+    width: 100%;
+    height: 25%;
+    background: lightgray;
+    border-radius: 50px;
+}
+
+#robo-progress-container #robot-progress-child {
+    width: 45%;
+    height: 100%;
+    background: tomato;
+    border-radius: 50px;
+}
+
+#competetors #user-competetor {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#competetors #user-competetor img {
+    width: 25%;
+    height: 100%;
+    border: 1px solid gray;
+    border-radius: 50px;
+    margin-left: 0.2em;
+    background: tomato;
+}
+
+#user-progress-container {
+    width: 70%;
+    height: 100%;
+}
+
+#user-progress-container #human-record {
+    margin-top: 5%;
+}
+
+#user-progress-container #progress-container {
+    width: 100%;
+    height: 25%;
+    background: lightgray;
+    border-radius: 50px;
+}
+
+#user-progress-container #human-progress-child {
+    width: 50%;
+    height: 100%;
+    background: green;
+    border-radius: 50px;
+}

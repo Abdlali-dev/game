@@ -1,0 +1,41 @@
+body{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:sans-serif;
+background: #f1f1f1;
+}
+header{
+display:flex;
+justify-content: space-between;
+}
+header #identity{
+height:150px;
+margin-top:0.2em;
+margin-left:0.2em;
+}
+header #identity img{
+width:95%;
+height:65%;
+border-radius:50px;
+border-top:2px solid green;
+border-left:4px solid seagreen; 
+border-bottom:2px solid lightgreen; 
+border-right:4px solid steelblue;
+}
+header #identity p{
+margin-top:0.3em;
+background:pink;
+padding:0.2em;
+border-left: 2px solid orangered;
+}
+header #identity p span{
+font-weight:bold;
+}
+
+
+header #thumbnail{
+width:60%;
+background: #eee;
+border:1px solid lightgray;
+}

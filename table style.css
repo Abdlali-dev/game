@@ -1,0 +1,63 @@
+#table {
+    height: 240px;
+    border: 1px solid steelblue;
+    margin-top: 2em;
+    border-collapse: collapse;
+}
+
+#table #row1 {
+    height: 80px;
+    border: 1px solid skyblue;
+    display: flex;
+    font-size: 50px;
+}
+
+#table #row1 #btn1,
+#btn2,
+#btn3 {
+    width: 33.33%;
+    height: 100%;
+    border: 2px solid skyblue;
+    border-top: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#table #row2 {
+    height: 80px;
+    border: 1px solid skyblue;
+    display: flex;
+    font-size: 50px;
+}
+
+#table #row2 #btn4,
+#btn5,
+#btn6 {
+    width: 33.33%;
+    height: 100%;
+    border: 2px solid skyblue;
+    border-top: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#table #row3 {
+    height: 76px;
+    border: 1px solid skyblue;
+    display: flex;
+    font-size: 50px;
+}
+
+#table #row3 #btn7,
+#btn8,
+#btn9 {
+    width: 33.33%;
+    height: 100%;
+    border: 2px solid skyblue;
+    border-top: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
